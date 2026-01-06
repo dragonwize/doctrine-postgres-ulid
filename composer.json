@@ -1,0 +1,27 @@
+{
+    "name": "dragonwize/doctrine-postgres-ulid",
+    "description": "Doctrine type for Postgres pgx_ulid extension.",
+    "type": "library",
+    "keywords": [
+        "doctrine",
+        "dbal",
+        "ulid",
+        "postgres"
+    ],
+    "require": {
+	"php": "^8.2",    
+        "doctrine/dbal": "^4.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dragonwize\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dragonwize",
+            "email": "dragonwize@gmail.com"
+        }
+    ]
+}
